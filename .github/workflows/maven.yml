@@ -36,7 +36,7 @@ jobs:
        image: 961102/springboot-images-new
        tags: latest
        registry: docker.io
-       dockerfile: D:/CICDNew/githubactions/Dockerfile
+       dockerfile: Dockerfile
        username: ${{ secrets.DOCKER_USERNAME }}
        password: ${{ secrets.DOCKER_PASSWORD }}
 
